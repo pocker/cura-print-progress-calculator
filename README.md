@@ -8,6 +8,9 @@ This sciprt change your <i>percent indicator</i> to show the percent based on th
 3) bgIn Cura select Extensions/Post Ptrocessing/Modify G-code
 4) In the popup click add script then select <b>Progress Calculator</b>
 
+## Rounding 
+Since the percent segment can't display just integers right now the script just cut the numbers after the decimal point (e.g.: 55.75% -> 55%). I'm gonna imporive this part.
+
 ## Bugs
 I've did some testing but if you found any problem with the script please create an issue.
 
